@@ -3,34 +3,37 @@ plugins {
 }
 
 android {
-    namespace = "com.chevstrap.rbx"
+    namespace = "com.zenostrap.rbx"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.chevstrap.rbx"
+        applicationId = "com.zenostrap.rbx"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.9"
+        versionCode = 2 // Bump version for the new build
+        versionName = "2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true // Enable for better performance
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
+        debug {
+            isMinifyEnabled = false
+        }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
-
     }
+
     buildFeatures {
         viewBinding = true
     }
