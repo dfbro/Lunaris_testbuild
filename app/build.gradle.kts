@@ -3,39 +3,39 @@ plugins {
 }
 
 android {
-    namespace = "com.zenostrap.rbx"
+    namespace = "com.zenostrap.rbx" // shit’s renamed, don’t forget the manifest
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.zenostrap.rbx"
+        applicationId = "com.zenostrap.rbx" // idk just keep this in sync
         minSdk = 24
         targetSdk = 35
-        versionCode = 2 // Bump version for the new build
-        versionName = "2.0"
+        versionCode = 2 // bumped it, don’t ship 1.0 twice
+        versionName = "2.0" // yeah
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = true // Enable for better performance
+            isMinifyEnabled = true // shrink that fat release build
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
         debug {
-            isMinifyEnabled = false
+            isMinifyEnabled = false // no one’s debugging obfuscated bs
         }
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_11 // don't touch unless u know wtf you're doing
         targetCompatibility = JavaVersion.VERSION_11
     }
 
     buildFeatures {
-        viewBinding = true
+        viewBinding = true // godsend, don't disable this unless ur high
     }
 }
 
