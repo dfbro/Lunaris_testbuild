@@ -1,53 +1,74 @@
 <div align="center">
 
-![image](https://github.com/user-attachments/assets/7a83645e-9fd5-4571-b76a-609279a63ed1)
-![image](https://github.com/user-attachments/assets/f88408b8-8274-4321-874c-eed349124e24)
+# 🌙 Lunaris
 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/FrosSky/Chevstrap/total)
-![GitHub License](https://img.shields.io/github/license/FrosSky/Chevstrap)
-![GitHub Tag](https://img.shields.io/github/v/tag/FrosSky/Chevstrap)
-![Discord](https://img.shields.io/discord/1351674799411302531)
+**Lunaris** is a Roblox & Roblox VN launcher for Android, inspired by [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap), built with custom performance and style improvements.
 
-Chevstrap is a Roblox & Roblox VN launcher for Android, inspired by [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap).
-
-Would you like to join our server?
-[Discord Server](https://discord.gg/rWkJ6Uh46U)
-
-----
+[Join Our Discord](https://discord.com/invite/q2fwB2KMPX)
 
 </div>
 
-> [!CAUTION]
-> The only official places to download Chevstrap is this GitHub repository. Any other websites offering downloads or claiming to be us are not controlled by us.
+---
 
-## Features
+> ⚠️ **Only download Lunaris from this GitHub repository.**  
+> Any other sites claiming to host Lunaris are not official or safe.
 
-- Ability to configure graphics fidelity and UI experience
-- See where your server is currently located (via [ipinfo.io](https://ipinfo.io/) API)
-- Able to rejoin your last server after leaving it (broken)
+---
 
-## Installation
+## ✨ Features
 
-1. Download the [latest release of Chevstrap](https://github.com/FrosSky/Chevstrap/releases).
+- Customize graphics fidelity and UI experience
+- View your server location using [ipinfo.io](https://ipinfo.io/)
+- Auto rejoin your last server (currently broken but being rebuilt)
+- Sleek, modern UI with Lunaris’ unique gold/blue theme
+- Works seamlessly with most Clone Apps
+
+---
+
+## 📦 Installation
+
+1. Download the [latest release of Lunaris](https://github.com/YourUsername/Lunaris/releases).
 2. Install the APK on your Android device.
-3. Once installed, open Chevstrap and begin using it.
+3. Launch Lunaris and configure your preferred settings.
 
-## Requirement
-- A Clone App (make sure it's trusted)
+---
 
-## F.A.Q
+## ⚙️ Requirements
 
-#### Q: Is this a malware?
+- A trusted Clone App (for Roblox duplication if needed)
 
-A: No, it's not a malware. The source code is viewable to all, so anyone can verify that it doesn’t do anything harmful. Just make sure you’re downloading it from an official source.
+---
 
-#### Q: Can I get banned for using Chevstrap?
+## ❓ F.A.Q
 
-A: No, it shouldn't. Chevstrap doesn't interact with the Roblox client and does not modify roblox client
+### Q: Is this malware?
 
-#### Q: Can you add Discord Rich Presence?
+A: No. Lunaris is 100% open source. You (or anyone) can audit the code.
 
-A: It was planned from the beginning, but was canceled for safety reasons.
+---
 
-#### Q: "Roblox logs folder not found"
-A: That means no notification appeared.
+### Q: Can I get banned for using Lunaris?
+
+A: No. Lunaris doesn’t modify or interact with the Roblox client directly.
+
+---
+
+### Q: Can you add Discord Rich Presence?
+
+A: It was planned, but scrapped due to potential platform risk.
+
+---
+
+### Q: "Roblox logs folder not found"?
+
+A: That means no Roblox notifications appeared. Ensure the app has storage access.
+
+---
+
+## 📌 Credits
+
+Forked from the original [Chevstrap](https://github.com/FrosSky/Chevstrap) project by FrosSky.  
+All changes moving forward are part of the Lunaris vision.
+
+---
+
